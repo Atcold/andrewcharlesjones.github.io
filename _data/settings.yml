@@ -7,16 +7,16 @@ disqus:
 google-ID: 'UA-149140730-1'
 
 menu:
-- {name: 'Publications', path: 'menu', url: 'publications.html'}
-- {name: 'CV', path: 'menu', url: '../files/Andrew_Jones_CV.pdf'}
+- {name: 'Publications', path: 'menu', url: 'https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F6ardClNeVznBH90alLFyb9W49tnlQGI6dMfq16eHYjbJrtXWRy8KMPt1X6xCSvGK-vILRJrvUmyJMi1VjdXajAfqC05XANUyyW38447hn-ynrQIec&user=Wr_6CE8AAAAJ'}
+# - {name: 'CV', path: 'menu', url: '../files/Andrew_Jones_CV.pdf'}
 - {name: 'Technical blog', path: 'menu', url: 'blog.html'}
 # - {name: 'Essays', path: 'menu', url: 'essays.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github', link: 'https://github.com/andrewcharlesjones'}
-- {icon: 'graduation-cap', link: 'https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F6ardClNeVznBH90alLFyb9W49tnlQGI6dMfq16eHYjbJrtXWRy8KMPt1X6xCSvGK-vILRJrvUmyJMi1VjdXajAfqC05XANUyyW38447hn-ynrQIec&user=Wr_6CE8AAAAJ'}
-- {icon: 'twitter', link: 'https://twitter.com/andy_c_jones'}
+# - {icon: 'github', link: 'https://github.com/andrewcharlesjones'}
+# - {icon: 'graduation-cap', link: 'https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F6ardClNeVznBH90alLFyb9W49tnlQGI6dMfq16eHYjbJrtXWRy8KMPt1X6xCSvGK-vILRJrvUmyJMi1VjdXajAfqC05XANUyyW38447hn-ynrQIec&user=Wr_6CE8AAAAJ'}
+# - {icon: 'twitter', link: 'https://twitter.com/andy_c_jones'}
 
 # - {icon: 'linkedin', link: ''}
 - {icon: 'envelope', link: 'ajones788@gmail.com'}
