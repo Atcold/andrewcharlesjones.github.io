@@ -38,7 +38,7 @@ At the value of $\theta$ that maximizes the loglikelihood, $\theta^\*$, we know 
 This is known as Newton's method. Specifically, the algorithm proceeds as follows:
 
 1. Initialize $\theta_0$ to a random value.
-2. Until converged, repeat: update $\theta_t = \theta_{t-1} - \frac{\ell'(\theta_0)}{\ell''(\theta_0)}$
+2. Until converged, repeat: update $\theta_t = \theta_{t-1} - \frac{\ell'(\theta_{t-1})}{\ell''(\theta_{t-1})}$
     
 As we can see, Newton's Method is essentially fitting a parabola to the current location of the log-likelihood function, then taking the minmium of that quadratic to be the next value of $\theta$.
 
