@@ -59,7 +59,7 @@ Note that this is slightly confusing because in most of the statistical literatu
 
 At first glance, the score function might seem unintuitive -- it's not clear why one would want to take the gradient of a function with respect to the data. The primary motivation is to remove the normalizing constant. Clearly, we can expand the score as
 
-$$\nabla_x \log p_m(x; \theta) = \nabla_x \log \widetilde{p}_m(x; \theta) - \underbrace{\nabla_x Z_\theta}_{0},$$
+$$\nabla_x \log p_m(x; \theta) = \nabla_x \log \widetilde{p}_m(x; \theta) - \underbrace{\nabla_x \log Z_\theta}_{0},$$
 
 where the final term drops off because the normalizing constant doesn't depend on $x$.
 
